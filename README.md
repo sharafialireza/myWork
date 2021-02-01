@@ -7,7 +7,7 @@ find its weather forecasts. This program will plot a histogram of the temperatur
 TSV text format file of the results. The TSV file will contain two columns: The count and the histogram edges for the 
 number of bins. 
 
-The use can choose the input file (containing the IP address as tsv format), the output file for the 
+The user can choose the input file (containing the IP address as tsv format), the output file for the 
 results of TSV format file and the number of buckets as follows:
 
     $ python3 main.py --input IN_FILENAME.TSV --output OUT_FILENAME.TSV --bucket-count X
