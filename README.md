@@ -59,7 +59,7 @@ The application can also be run as docker container. The container image needs t
 Dockerfile and requirements.txt included.
 
 1- Create a directory on your computer, save the python application file along with input file (IP 
-location as tsv) and the Dockerfile supplied with application in that directory.
+location as tsv), the requirements.txt and the Dockerfile supplied with application in that directory.
 
 2- The container is created by using the following command. The python application file name supplied is 
 named "main.py" and its Dockerfile is using that name to create the docker image. The Dockerfile needs to 
@@ -67,7 +67,7 @@ be updated for the name if main.py file name is changed.
 
     $ docker build -t city-forecasts .
 
-3- Make sure you can access the internet from your host computer since the application make API calls 
+3- Make sure you can access the internet from your host computer since the application makes API calls 
 to https://ipapi.co and https://api.openweathermap.org to fetch lat/long/city information and 
 subsequently to fetch the temperature forecasts. If there is any failure, the log file will have an 
 entry for it. The information about the fetched data will be also printed on screen for each IP selected 
