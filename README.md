@@ -43,7 +43,7 @@ with older version of Python. There are several module required for this applica
 requirements.txt file.
 
 The Python application can be run from a Docker container. To successfully run this python application, you need
-to install the following tools,
+to install the following tools/modules:
 
 * docker - installed from [docker.io](https://www.docker.com/)
 * python >= 3.7 - the python code is written and in python3, make sure you have proper python interpreter installed on your system
