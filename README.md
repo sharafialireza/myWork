@@ -50,6 +50,8 @@ to install the following tools,
 * python requests library - this is required for submitting multiple requests to the api server. You can run `pip install requests`
 * python pandas - open source data analysis and manipulation tool, built on top of the Python programming language.
 * python matplotlib - is a multi-platform data visualization library built on NumPy arrays for plotting 2D plots of arrays
+* python numpy - NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays
+* python argparse - The argparse module makes it easy to write user-friendly command-line interfaces
 
 ## Running the application as a docker container
 
@@ -83,7 +85,7 @@ The printed information for a successful retrieval for an IP would be like:
     forecasted temperature:
     31-01-2021: 70.56
 
-### to chekc the list of image created after the container is created
+### to check the list of image created after the container is created
  
     $ docker image list
     REPOSITORY                              TAG          IMAGE ID       CREATED         SIZE
